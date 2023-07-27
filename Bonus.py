@@ -8,4 +8,4 @@ def Print_number(number) :
     return printNumber
 
            
-print (Print_number(5) )
+print (Print_number(10) )
