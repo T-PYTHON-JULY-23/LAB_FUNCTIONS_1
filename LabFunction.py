@@ -12,7 +12,7 @@
 ### Document the newly created function. describe what it does, then print the documentation. 
 """
 
-def reverse_numbers_printer(numbers:int) -> None :
+def reverse_numbers_printer(numbers:int) -> str :
     """This function take a number and print all the numbers before it in reverse then do it again but for the number before in new line  
        (upper left triangle ◤ )
        """
