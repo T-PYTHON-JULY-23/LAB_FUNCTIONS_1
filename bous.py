@@ -1,4 +1,4 @@
-def pattern(nums:str): 
+def pattern(nums): 
     ''' Decrease each time unit it reaches 1 '''
     result = ""
     for n1 in range(nums, 0, -1):
@@ -7,5 +7,5 @@ def pattern(nums:str):
         result += "\n"
     return result
 
-pattern_output = pattern('A')
+pattern_output = pattern(5)
 print(pattern_output)
