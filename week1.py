@@ -1,15 +1,14 @@
-def ArrayNumbers(number):
-    ''' gdgdd '''
+def ArrayNumbers(number:int):
+    ''' a function that takes 1 parameter of type int , 
+    then it prints out the result of some formatted shape '''
 
-    ieratation=number
-    #for number in range(number,1):
-    while ieratation >=1:
-
-     while number>=1:
-            print (number,end=" ") # to delete the new line and make all the output itteration in one line
-            number=number-1
-
-    ieratation=ieratation-1    
+    
+    for iteration in range(number,0,-1):
+            for iteration2 in range(iteration,0,-1):
+    
+              print (iteration2,end=" ") # to delete the new line and make all the output itteration in one line
+            print("")
+    
 
 
 
