@@ -1,8 +1,8 @@
 def pattern(num): 
     ''' Decrease each time unit it reaches 1 '''
-    for n1 in range(num, 0, -1): #1,2,3,4,5
-        for n2 in range(n1, 0, -1): #1,2,3,4
-            print(n2, end=" ")
+    for n1 in range(num,0, -1): #1,2,3,4,5
+        for n2 in range( n1,0, -1): #1,2,3,4
+            print(n2 ,end=(" "))
         print()
 
 pattern(5)
