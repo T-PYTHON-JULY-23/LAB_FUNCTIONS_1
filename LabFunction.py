@@ -12,19 +12,27 @@
 ### Document the newly created function. describe what it does, then print the documentation. 
 """
 
-def reverse_numbers_printer(number:int) -> None :
+def reverse_numbers_printer(numbers:int) -> None :
     """This function take a number and print all the numbers before it in reverse then do it again but for the number before in new line  
        (upper left triangle ◤ )
        """
-    if number < 0 :
-        number = number *-1
-    if number==0 :
-        return
-    
-    for i in range(number,0,-1):
-        print(i,end=" ")
-    print()
-    reverse_numbers_printer(number-1)
+    full_stirng=''
+    number_for_lines=numbers
+
+
+    for line in range(0,numbers):
+        for number in range(numbers,0 , -1 ):
+            full_stirng= full_stirng + str(number) +" "
+        full_stirng=full_stirng +"\n"
+        numbers-=1
+
+            
+    full_stirng=full_stirng[:-1]
+    return full_stirng
+
     
 
-reverse_numbers_printer(-5)
+
+    
+up_left_triangle=reverse_numbers_printer(5)
+print(up_left_triangle)
