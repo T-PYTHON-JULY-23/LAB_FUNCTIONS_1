@@ -6,7 +6,7 @@ Modify the function you used , so now it returns a string instead of printing di
 number = 5
 
 def print_format(integer_number:int):
-    """This function take integer and print it in reverse pyramid of numbers pattern"""
+    """This function take integer and return it in reverse pyramid of numbers pattern  sting"""
     word = ""
     for i in range(0, number + 1):
         for j in range(number - i, 0, -1):
