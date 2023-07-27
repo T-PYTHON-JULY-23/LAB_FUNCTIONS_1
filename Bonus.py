@@ -11,9 +11,9 @@ def print_format(integer_number:int):
     for i in range(0, number + 1):
         for j in range(number - i, 0, -1):
            word += f"{j} "
-        print(word)
-        word = ""
+        word+= "\n"
 
+    return word
 
    
 print(print_format(number))
