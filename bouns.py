@@ -12,5 +12,5 @@ def pyramid (x):
     return string
 
 
-print(pyramid(6))
+print(pyramid(5))
         
