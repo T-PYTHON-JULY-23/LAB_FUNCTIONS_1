@@ -1,10 +1,11 @@
-def numbers(x:int)->str:
-    ''' pyrmid '''
-    
-    for i in range(x,0,-1): #x1,x2,x3,x4,x5 
-      for j in range (i, 0,-1): #x1,x2,x3,x4
-        print(j,end=" ")
-      print()
-    return numbers   
-print(numbers)
+def numbers(x:str):
+  outcome = ""   
+  for i in range(x,0,-1): 
+      for j in range (i,0,-1):
+       outcome += f"{j} "
+      outcome += "\n"
+       
+  return outcome
+outcome = numbers
+print(outcome(5))
 
