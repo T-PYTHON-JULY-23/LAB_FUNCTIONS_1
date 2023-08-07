@@ -10,3 +10,28 @@
 1   
 
 ### Document the newly created function. describe what it does, then print the documentation. 
+
+
+''' The function return the inverted numbers'''
+
+
+def InvertedNum (x:int):
+
+for num in x:
+    inverted = num
+    print(inverted)
+        for inverted in num:
+           dd=-inverted
+         print(dd)
+          
+num+1
+
+
+
+
+
+print()
+    
+
+
+     
